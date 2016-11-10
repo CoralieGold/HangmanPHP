@@ -1,0 +1,179 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+
+body{
+	margin : 0;
+	padding : 0;
+	background-image : url('../images/timburton.jpg');
+}
+
+h1 {
+	color : #040018;
+	font-family : 'Bree Serif';
+	font-size : 35px;
+}
+
+h2 {
+	color : #251C5A;
+	font-family : 'Raleway';
+	font-size : 25px;
+	text-align : center;
+	margin-bottom : 10px;
+}
+
+h3 {
+	color : #F3CA5F;
+	font-size : 15px;
+	margin-bottom : 10px;
+	font-family : 'Raleway';
+	text-shadow: 
+	#040018 1px 1px 1px, 
+	#040018 -1px 1px 1px, 
+	#040018 -1px -1px 1px, 
+	#040018 1px -1px 1px; 
+}
+
+a {
+ 
+    color: #F3CA5F;
+    text-decoration: none;
+    font-weight: bold;
+	font-family : 'Bree Serif';
+	text-shadow: 
+	#040018 1px 1px 1px, 
+	#040018 -1px 1px 1px, 
+	#040018 -1px -1px 1px, 
+	#040018 1px -1px 1px; 
+ 
+}
+ 
+a:hover {
+ 
+    color: #251C5A;
+	text-shadow: 
+	#F3CA5F 1px 1px 1px, 
+	#F3CA5F -1px 1px 1px, 
+	#F3CA5F -1px -1px 1px, 
+	#F3CA5F 1px -1px 1px; 
+ 
+}
+ 
+img {
+ 
+    width: 100%;
+ 
+}
+ 
+header {
+ 
+    background: #06070E;
+    width: 100%;
+    height: 76px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 4px solid #251C5A;
+    z-index: 100;
+	color : black;
+ 
+}
+
+#logo{
+ 
+    margin-left: 20px;
+    float: left;
+    width: 200px;
+    height: 75px;
+    background: url('../images/logotb.png') no-repeat center;
+    display: block;
+ 
+}
+ 
+nav {
+ 
+    float: right;
+    padding: 20px;    
+ 
+}
+ 
+ 
+ul {
+ 
+    list-style: none;
+ 
+}
+ 
+li {
+ 
+    display: inline-block;
+    float: left;
+    padding: 10px
+ 
+}
+
+p {
+	font-family : 'Bree Serif';
+	color : #F3CA5F;
+	text-shadow: 
+	#040018 1px 1px 1px, 
+	#040018 -1px 1px 1px, 
+	#040018 -1px -1px 1px, 
+	#040018 1px -1px 1px; 
+	font-size : 20px;
+}
+
+.mot {
+	font-size : 30px;
+}
+
+aside {
+	width : 15%;
+	position : absolute;
+	top : 30%;
+	left : 10px;
+}
+
+aside input[type=submit]{
+	width : 110px;
+	height : 25px;
+	margin-left : 5px;
+	box-shadow : 1px 1px 1px #2F1B41;
+	cursor : pointer;
+	background-color : #06070E;
+	color : #F3CA5F;
+	border : 1px solid #2F1B41;
+	font-family : 'Bree Serif';
+ }
+ 
+main {
+	width : 85%;
+	float : right;
+	margin-left : 10px;
+	margin-top : 77px;
+	text-align : center;
+}
+main form {
+	width : 400px;
+	margin : auto;
+}
+main input[type=submit]{
+	width : 25px;
+	height : 25px;
+	margin-left : 5px;
+	margin-bottom : 5px;
+	box-shadow : 1px 1px 1px #2F1B41;
+	cursor : pointer;
+	background-color : #06070E;
+	color : #F3CA5F;
+	border : 1px solid #2F1B41;
+	font-family : 'Raleway';
+ }
+ 
+input[type=submit]:hover{
+	background-color : #F3CA5F;
+	color : #06070E;
+ }
+ 
+canvas {
+	background-color : rgba(4,0,24,0.5);
+}
